@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 3750px;
+
+}
+
+.pageheader {
+    overflow: hidden;
+    height: 1000px;
+    background-image: url(blue_bg.png);
+}
+
+.pagenavbar {
+    padding: 40px;
+    display: flex; justify-content: space-between;
+    align-items: center;
+}
+
+.navbarleft {
+    display: flex;
+    align-items: center;
+    text-indent: 40px;
+    font-family: 'Figtree', sans-serif;
+    color: grey;
+    transition: all 1s ease;
+}
+
+.navbarleft:hover {
+  background-color: lightblue;
+  border-radius: 50%;
+  width: 800px;
+}
+
+.loginbutton {
+    background-color: white;
+    color: grey;
+    border: 20px solid white;
+    border-radius: 45%;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+.loginbutton:hover {
+    background-color: lightblue;
+}
+
+.pagebelownav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.pagebelowleft1 {
+    display: flex; 
+     text-indent: 10px;
+     color: rgb(99, 99, 99);
+     font-size: xxx-large;
+     font-family: 'Figtree', sans-serif;
+}
+
+.deliver {
+    color:#79368c ;
+}
+
+.pblparagraph {
+    color: rgb(99, 99, 99);
+    font-size: x-large;
+    font-family: 'Figtree', sans-serif;
+    width: 600px;
+    margin-left: 15px;
+}
+
+.maskphoto {
+    position: relative;
+    z-index: 1;
+    margin-right: 150px;
+}
+
+.landingphoto {
+    position: absolute;
+    top: 100px;
+    left: 950px;
+    margin-left: 50px;
+}
+
+.cloudsphoto {
+    position: absolute;
+ top: 700px;
+    right: 100px;
+    z-index: 2;
+}
+
+.wavesphoto {
+    position: absolute;
+   right: 100px;
+  -webkit-filter: contrast(100%) saturate(100%);
+}
+
+.section1 {
+    overflow: hidden;
+    height: 1000px;
+    
+}
+
+.sec1bgphoto1 {
+    position: relative;
+   left: 400px;
+   top: 250px;
+}
+
+.sec1photo1 {
+    position: absolute;
+    text-align: center;
+   bottom: -710px;
+   left: 250px;
+   color: rgb(99, 99, 99);
+   font-family: 'Figtree', sans-serif;
+}
+
+.sec1photo1p {
+    width: 300px;
+}
+
+.sec1photo2 {
+    position: absolute;
+    left: 800px;
+    bottom: -840px;
+    text-align: center;
+    color: rgb(99, 99, 99);
+   font-family: 'Figtree', sans-serif;
+}
+
+.sec1photo2p {
+    width: 360px;
+}
+
+.sec1photo3 {
+    position: absolute;
+    text-align: center;
+    color: rgb(99, 99, 99);
+   font-family: 'Figtree', sans-serif;
+   left: 1300px;
+   bottom: -1150px;
+}
+
+.sec1photo3p {
+    width: 350px;
+}
+
+.whykudzoka {
+    position: absolute;
+    bottom: -1250px;
+    left: 150px;
+}
+
+.whytext {
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+    font-family: 'Figtree', sans-serif;
+    color: white;
+}
+
+.whytext h1 {
+    font-size: xxx-large;
+}
+
+.sec2photos {
+    
+    align-items: center;
+    text-align: center;
+    color: rgb(99, 99, 99);
+   font-family: 'Figtree', sans-serif;
+   display: flex; justify-content: center;
+}
+
+.section3 {
+    height: 750px;
+    background-image: url(Group\ 1131.png);
+}
+
+.sec3all {
+    display: flex; justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 350px;
+}
+
+.sec3bgphoto {
+   position: absolute;
+   left: 950px;
+   margin-top: 150px;
+}
+
+.sec3storesicons {
+    display: flex; 
+    align-items: center;
+    text-indent: 20px;
+    position: relative;
+    top: 150px;
+}
+
+.sec3applestore {
+    display: flex; 
+    align-items: center;
+    border: 10px solid white;
+    background-color: white;
+    border-radius: 15%;
+    margin-right: 20px;
+}
+
+.sec3playstore {
+    display: flex; 
+    align-items: center;
+    border: 10px solid white;
+    background-color: white;
+    border-radius: 15%;
+}
+
+.socialicons {
+    display: flex;
+    text-indent: 20px;
+    position: relative;
+    top: 250px;
+    right: 690px;
+
+}
+
+.navfooter {
+    position: relative;
+    display: flex;
+    text-indent: 40px;
+    top: 300px;
+    right: 1200px;
+    color: white;
+    font-family: 'Figtree', sans-serif;
+}
